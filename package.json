@@ -1,0 +1,11 @@
+{
+  "name": "KnockKnockAPI",
+  "version": "0.0.0",
+  "description": "For Readify",
+  "main": "server.js",
+  "repository": "",
+  "author": "Victor Lia Fook <victorliafook@gmail.com>",
+  "dependencies": {
+    "express": "~4.0.0"
+  }
+}
