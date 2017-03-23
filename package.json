@@ -1,7 +1,7 @@
 {
-  "name": "KnockKnockAPI",
+  "name": "KnockAPI",
   "version": "0.0.0",
-  "description": "For Readify",
+  "description": "For a test",
   "main": "server.js",
   "repository": "",
   "author": "Victor Lia Fook <victorliafook@gmail.com>",

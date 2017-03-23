@@ -5,8 +5,7 @@ var fibonacci = require('./fibonacci');
 var string = require('./string-utils');
 var geometry = require('./geom');
 
-const token = "f76b7dc9-dc8f-4383-aa74-ce2f1ff294bb";
-//const token = "readify";
+const token = "a-token";
 
 var express = require('express');
 
@@ -39,7 +38,6 @@ router.route('/Fibonacci')
 router.route('/ReverseWords')
   .get(function(req, res){
     
-    console.log("word :" + req.query.sentence);
     var ret = "";
     var sentenceArr = req.query.sentence.trim().split(/\s+/);
     var sArr = req.query.sentence.split(/[\w?¿!@:⸮áéíóúâêîôûäëïöü]+/);
